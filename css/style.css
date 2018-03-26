@@ -1,0 +1,93 @@
+/* CSS STYLES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+}
+
+header {
+    background-color: black;
+    height: 1000px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 18px;
+
+}
+
+
+nav li {
+    padding: 10px;
+}
+
+.logo {
+    padding-top: 10px;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+#headerText {
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 320px;
+}
+
+.blurb {
+    color: white;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.thePrincess {
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: lighter;
+    padding: 50px 0px;
+    color: rgb(64, 20, 70);
+}
+
+#shuri2 {
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+}
+
+.img-gallery {
+    padding-bottom: 30px;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family:'Permanent Marker', cursive;
+    height: 60px;
+    padding-top:20px;
+    padding-left: 15px;
+
+}
+
