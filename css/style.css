@@ -6,7 +6,7 @@
 }
 
 body {
-    color: white;
+    color: #b48801;
 }
 
 header {
@@ -15,8 +15,8 @@ header {
 }
 
 a {
-    color: rgb(255, 255, 255);
-    font-family: 'Permanent Marker', cursive;
+    color: #232d5e;
+    font-family: 'BEYNO', cursive;
 }
 
 a:hover {
@@ -41,16 +41,16 @@ nav li {
 .logo {
     padding-top: 10px;
     font-size: 60px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'BEYNO', cursive;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: #232d5e;
     text-align: center;
     
 }
 
 #headerText {
-    color: white;
-    font-family: 'Bowlby One SC', cursive;
+    color: #b48801;
+    font-family: 'BEYNO', cursive;
     font-size: 80px;
     text-align: center;
     padding-top: 320px;
@@ -59,14 +59,14 @@ nav li {
 .blurb {
     color: white;
     font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'BEYNO', cursive;
 }
 
 .thePrincess {
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'BEYNO', cursive;
     font-weight: lighter;
     padding: 50px 0px;
-    color: rgb(64, 20, 70);
+    color: #1c1c1c;
 }
 
 #shuri2 {
@@ -76,15 +76,26 @@ nav li {
     
 }
 
-.img-gallery {
-    padding-bottom: 30px;
-    padding: 10px;
+#flexIMGs{
+	min-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+	padding: 10px 10px 40px 10px;
 }
+
+
+#flexIMGs img{
+	height: 250px;
+	width: 250px;
+}
+
 
 footer {
     background-color: black;
-    color: white;
-    font-family:'Permanent Marker', cursive;
+    color: #e6e7e8;
+    font-family:'BEYNO', cursive;
     height: 60px;
     padding-top:20px;
     padding-left: 15px;
